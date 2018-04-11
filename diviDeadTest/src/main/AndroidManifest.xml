@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cs.divideadtest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cs.divideadtest.DivideadTestStarter"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".ArhiveContentTest"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Arhive Content Test"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BitmapTest"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Bitmap Test"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VoiceTest"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Voice Test"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RenderViewTest"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Render View Test"
+            android:screenOrientation="landscape" />
+        <!-- Don't forget InitActivity -->
+        <activity
+            android:name="io.vov.vitamio.activity.InitActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+    </application>
+
+</manifest>

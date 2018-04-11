@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DiviDeadTest.iml" filepath="$PROJECT_DIR$/DiviDeadTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diviDeadTest/diviDeadTest.iml" filepath="$PROJECT_DIR$/diviDeadTest/diviDeadTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initActivity/initActivity.iml" filepath="$PROJECT_DIR$/initActivity/initActivity.iml" />
+    </modules>
+  </component>
+</project>
